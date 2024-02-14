@@ -1,0 +1,37 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Basketball Chatbot</title>
+</head>
+<body>
+  <div id="main">
+  <h1 class="header">NBA Takes Chatbot</h1>
+  <h2 class="subhead">Surf through different takes from chatbot about different players, teams, and more!</h2>
+  <div class="container">
+    <!-- The chatbox element -->
+    <div id="chatbox"></div>
+
+    <!-- User input section -->
+    <div id="user-input">
+      <!-- Input field for the user's message -->
+      <input type="text" id="message-input" placeholder="Type your message...">
+
+      <!-- Send button with an ID for targeting in JavaScript -->
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+<div>
+  <div class="logo">
+    <img src="https://seeklogo.com/images/N/nba-logo-59F0731E03-seeklogo.com.png" alt="NBA Logo" width="200">
+  </div>
+  <h3 id="footer">Author: Sujay Patel</h3>
+  <!-- Include your chatscript.js -->
+  <script src="chatscript.js"></script>
+</body>
+</html>
